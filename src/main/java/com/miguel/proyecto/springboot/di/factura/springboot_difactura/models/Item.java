@@ -1,4 +1,4 @@
-package com.miguel.proyecto.springboot.models;
+package com.miguel.proyecto.springboot.di.factura.springboot_difactura.models;
 
 public class Item {
 
@@ -6,7 +6,7 @@ public class Item {
     private int quantity;
 
     public Item(){
-        
+
     }
 
     public Item(Product product, int quantity){

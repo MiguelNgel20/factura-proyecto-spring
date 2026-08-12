@@ -1,4 +1,4 @@
-package com.miguel.proyecto.springboot.models;
+package com.miguel.proyecto.springboot.di.factura.springboot_difactura.models;
 
 import org.springframework.stereotype.Component;
 
@@ -16,7 +16,7 @@ public class Category {
         this.description = description;
     }
 
-    
+
 
     public String getName() {
         return name;

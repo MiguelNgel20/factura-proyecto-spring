@@ -1,4 +1,4 @@
-package com.miguel.proyecto.springboot.models;
+package com.miguel.proyecto.springboot.di.factura.springboot_difactura.models;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
@@ -9,7 +9,7 @@ public class Client {
     @Value("${client.name}")
     private String name;
 
-    @Value("${client.lastName}}")
+    @Value("${client.lastName}")
     private String lastName;
 
 

@@ -1,4 +1,4 @@
-package com.miguel.proyecto.springboot;
+package com.miguel.proyecto.springboot.di.factura.springboot_difactura;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,14 +6,12 @@ import java.util.List;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.PropertySource;
 
-import com.miguel.proyecto.springboot.models.Category;
-import com.miguel.proyecto.springboot.models.Item;
-import com.miguel.proyecto.springboot.models.Product;
+import com.miguel.proyecto.springboot.di.factura.springboot_difactura.models.Category;
+import com.miguel.proyecto.springboot.di.factura.springboot_difactura.models.Item;
+import com.miguel.proyecto.springboot.di.factura.springboot_difactura.models.Product;
 
 @Configuration
-@PropertySource("classpath:data.properties")
 public class AppConfig {
 
     @Bean

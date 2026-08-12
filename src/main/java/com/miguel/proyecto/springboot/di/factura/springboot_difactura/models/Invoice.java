@@ -1,4 +1,4 @@
-package com.miguel.proyecto.springboot.models;
+package com.miguel.proyecto.springboot.di.factura.springboot_difactura.models;
 
 import java.util.List;
 
