@@ -4,6 +4,7 @@ public class Item {
 
     private Product product;
     private int quantity;
+    private int totalValue;
 
     public Item(){
 
@@ -12,6 +13,7 @@ public class Item {
     public Item(Product product, int quantity){
         this.product = product;
         this.quantity = quantity;
+        totalValue = product.getPrice() * quantity;
     }
     
     public Product getProduct() {
@@ -26,7 +28,7 @@ public class Item {
     public void setQuantity(int quantity) {
         this.quantity = quantity;
     }
-
-
-
+    public int getTotalValue(){
+        return totalValue;
+    }
 }
